@@ -25,4 +25,4 @@ public interface ITarefaService {
     void excluir(
             Integer id,
             Usuario usuario);
-}
+} 

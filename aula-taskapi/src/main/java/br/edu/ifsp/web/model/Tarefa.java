@@ -28,7 +28,7 @@ public class Tarefa {
     
     public void setTitulo(String t){ 
     	
-    	if(titulo == null || titulo.isBlank()) {
+    	if(t == null || t.isBlank()) {
     		throw new IllegalArgumentException("O título é obrigatório.");
     	}
     	
@@ -52,5 +52,9 @@ public class Tarefa {
     
     public Usuario getUsuario() {
     	return usuario;
+    }
+    
+    public void setUsuario(Usuario usuario) {
+    	this.usuario = usuario;
     }
 }
